@@ -11,12 +11,18 @@
       <body>
         <h1>英文練習</h1>
         
-        <form>
+        <form class="wordForm"  >
           <h2>請輸入英文單字</h2>
+          <input value="" label="請輸入單字" class="wordInput">
+          <button class="completeBtn">完成</button>
         </form>
       </body>
 
     </div>
     <script type="module" src="/main.js"></script>
+    <!-- <script type="module">
+      import * as myModule from '/main.js';
+      const { completeLetterArray, translate } = myModule.setupForm();
+    </script> -->
   </body>
 </html>
